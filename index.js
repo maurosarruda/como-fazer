@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded())
 
 const port = process.env.PORT || 3000
 
-app.get('/', async(request, response) => {
+app.get('', async(request, response) => {
     response.render('index')
 })
 
