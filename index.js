@@ -11,7 +11,7 @@ const publicacoes = require('./routes/publicacoes')
 const port = process.env.PORT || 3000
 
 app.get('/', async(request, response) => {
-    response.render('index')
+    response.render('index.ejs')
 })
 
 app.use('/categorias', categorias)
